@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Basics Demonstration</h1>
+    
+    <div class="section">
+        <h2>Part 1: Variables and Conditionals</h2>
+        <p>This section demonstrates variable declarations and conditional statements.</p>
+        <button onclick="checkNumber()">Check if Number is Positive/Negative</button>
+        <div id="conditional-output" class="output">Result will appear here</div>
+    </div>
+    
+    <div class="section">
+        <h2>Part 2: Functions</h2>
+        <p>This section demonstrates custom functions.</p>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+        <button onclick="calculate()">Calculate Sum & Product</button>
+        <div id="function-output" class="output">Result will appear here</div>
+    </div>
+    
+    <div class="section">
+        <h2>Part 3: Loops</h2>
+        <p>This section demonstrates different types of loops.</p>
+        <button onclick="showCountdown()">Start Countdown (while loop)</button>
+        <button onclick="showMultiplication()">Show Multiplication Table (for loop)</button>
+        <div id="loop-output" class="output">Result will appear here</div>
+    </div>
+    
+    <div class="section">
+        <h2>Part 4: DOM Interactions</h2>
+        <p>This section demonstrates DOM manipulation.</p>
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="changeColor()">Change Background Color</button>
+        <button onclick="addItem()">Add List Item</button>
+        <div id="dom-output" class="output">This text will change</div>
+        <ul id="item-list">
+            <li>Initial item</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
